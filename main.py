@@ -22,9 +22,9 @@ def task2():
     print(result)
     z = result[0] + result[1]
     for i in range(len(result)-1):
-        sum = result[i] + result[i+1]
-        if sum > z:
-            z = sum
+        summ = result[i] + result[i+1]
+        if summ > z:
+            z = summ
     print(f"макс сумма {z}")
 
 
@@ -99,3 +99,4 @@ task6()
 tock = time.perf_counter()
 
 print(f"вычисление заняло {tock-tick:0.8f}")
+
